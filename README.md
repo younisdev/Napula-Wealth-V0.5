@@ -1,59 +1,47 @@
-# Napula Wealth (V0.5)
+# Freelancer Portfolio: Napula Wealth (V0.5)
 
+Napula Wealth is a multifaceted financial platform designed to cater to the diverse needs of users, ranging from stock tracking enthusiasts to budget-conscious individuals and currency conversion aficionados. As a freelancer, I conceptualized, developed, and implemented Napula Wealth to showcase my skills and expertise in web development, financial data integration, and user experience design.
 
-Napula Wealth is a platform that combines three main features: stock tracking, budget management, and currency conversion, aimed to provide users with a comprehensive tool for managing their financial state and improving it. Whether you're an investor, a budgeter, or someone who wants to convert currency easily, Napula Wealth offers all of these and more in one platform with top-notch security and privacy.
+## Key Features and Benefits:
 
+### Comprehensive Financial Management:
+- **Stock Tracking:** Keep tabs on your investments with real-time stock data from trusted sources like Nasdaq, ensuring you're always informed about market trends and your portfolio's performance.
+  
+- **Budget Management:** Take control of your finances with robust budgeting tools that help you track expenses, set savings goals, and optimize your spending habits for financial success.
+  
+- **Currency Conversion:** Seamlessly convert currencies for international transactions or travel, leveraging accurate exchange rates and user-friendly conversion tools.
 
-# Distinctiveness and Complexity:
+### Distinctive and Complex Development:
+- **Unique Feature Integration:** Napula Wealth sets itself apart with its seamless integration of multiple financial features into a single, cohesive platform, offering unparalleled convenience and utility to users.
+  
+- **Responsive Design:** Built with Django for the backend and React, HTML, CSS, and MySQL for the frontend, Napula Wealth boasts a responsive and visually appealing interface optimized for both desktop and mobile devices.
+  
+- **Secure and Scalable Architecture:** The platform prioritizes security, scalability, and maintainability, ensuring a robust and reliable user experience while adhering to modern web development standards.
 
+### Learning and Growth Opportunities:
+- **AI Integration:** Explore the realm of artificial intelligence with a tiny machine learning model implemented using PyTorch, providing valuable insights into AI development and the challenges of data processing and model training.
+  
+- **Professional Development:** Developing Napula Wealth has been a significant learning opportunity, fostering the enhancement of problem-solving skills, algorithmic thinking, and proficiency in Django, React, and other cutting-edge technologies.
 
-Napula Wealth stands out from all other old CS50 web projects due to its unique combination of features aimed at providing significant value to a broad audience, including investors, business owners, and programmers. With its comprehensive APIs targeting these audiences through all devices, including PCs, and responsive, well-designed interfaces on mobile, Napula Wealth offers unparalleled accessibility and usability. The combination of real-time data APIs ensures updated data and enriches the user experience with the help of our custom API and databases. With the help of Django for the backend and React, HTML, CSS, and MySQL as a temporary database, including 11 tables for the frontend, we were able to create a user-friendly interface and features that adhere to modern website design rules and security standards. Additionally, we have incorporated historical data from well-known and trustworthy platforms and experts such as Nasdaq. With over one thousand lines of code in Python Django views files, which form 21 APIs and 7 actual routes comprising HTML layouts that inherit the design from layout.html, a large CSS codebase, and the usage of well-known libraries like Bootstrap and Bootstrap React, we provide users with a visually appealing and responsive experience. Our routes prioritize security, scalability, and maintainability, ensuring that the codebase remains secure and easily maintainable.
+## File Description:
 
-Furthermore, we have incorporated a tiny machine learning model using PyTorch for learning purposes (which may have some issues). This presented a valuable opportunity to delve into the workings of AI, including tensors and neural networks, and the challenges of data acquisition and model training. These processes require significant computational resources, whether from CPU power or NVIDIA CUDA cores in RTX or GTX GPUs, highlighting the complexity and resource-intensive nature of AI development.
+- **models.py:** Defines Django database models, encompassing 11 tables for user authentication, data tracking, caching, and more.
+  
+- **urls.py:** Defines routes and paths for the app, including 21 APIs and 7 actual routes to facilitate seamless navigation and data access.
+  
+- **views.py:** Implements necessary views, comprising over thousands of lines of code, to handle API requests and render dynamic content.
+  
+- **helper.py:** Facilitates the integration of a machine learning model for enhanced financial analysis and insights.
 
+## How to Run the Application:
 
-In addition, Napula Wealth has been a significant learning opportunity, scaling our knowledge to new heights. It has enhanced our problem-solving skills, algorithmic thinking, and proficiency in both Django and React, contributing to our professional growth.
+1. Clone the repository to your local machine.
+2. Navigate to the project directory.
+3. Install all required dependencies listed in requirements.txt.
+4. Run the Django development server using the command: `python manage.py runserver`.
 
+## About the Developer:
+Napula Wealth was developed by Younis Ayoub, a skilled freelancer with expertise in web development, financial data integration, and AI. With a passion for innovation and a commitment to delivering high-quality solutions, Younis strives to exceed client expectations and drive impactful results through his work.
 
-# File Description:
-
-
-- models.py: Defines the Django database models, encompassing 11 tables for various purposes such as user authentication, trackers, caching tables, stocks historical data, and data holders.
-
-- urls.py: Defines all necessary routes and paths for the app, including 21 API routes and 7 actual routes.
-
-- views.py: Defines all necessary views, composed of APIs and regular views, totaling over thousands of lines.
-
-- helper.py: Plays a crucial role in aiding the alpha version AI model (investai.pth) by providing it with a neural network class that the model is trained on.
-
-- templates\investment: Contains 8 HTML files, one of which is layout.html, defining the layout of the application and holding React and ReactDOM UMD links. The other 7 files extend upon it with Django templates.
-
-- static\files.jsx: Contains all the JSX files used and is utilized to transform them into JavaScript files using the esbuild converter.
-
-- static\investment: Contains all the converted '.js' files.
-
-
-# How to Run the Application:
-
-
-1- Clone the repository to your machine.
-
-2 - Navigate to the project directory.
-
-3 - Download all the required files listed in requirements.txt.
-
-4 - Run the Django development server using the command: python manage.py runserver.
-
-
-# Done by: Younis Ayoub.
-
-# This was CS50 Web.
-
-
-
-
-
-
-
-
-
+## Conclusion:
+Napula Wealth serves as a testament to my proficiency as a freelancer, showcasing my ability to conceptualize, develop, and deploy complex web applications tailored to meet the diverse needs of users. Whether you're an investor, budgeter, or currency enthusiast, Napula Wealth offers the tools and features you need to achieve financial success.
