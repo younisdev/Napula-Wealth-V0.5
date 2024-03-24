@@ -1,0 +1,30 @@
+{% extends "investment/layout.html" %}
+
+
+{% block title %}Register{% endblock %}
+
+
+
+{% block body %}
+
+<div class="reg_div">
+<form method="post" action="{% url 'register' %}">
+    <h3 class="hint">Create Your Account!</h3>
+    {% csrf_token %}
+     <div class="form-group form" style="text-align: center;">
+     <input type="text" placeholder="Username" name="username" class="form-control">
+     </div>
+     <div class="form-group form" style="text-align: center;">
+     <input type="email" placeholder="Email" name="email" class="form-control">
+     </div>
+     <div class="form-group form" style="text-align: center;">
+     <input type="password" placeholder="Password" name="password" class="form-control">
+     </div>
+     <div class="form-group form" style="text-align: center;">
+     <input type="password" placeholder="Confirm Password" name="confirm" class="form-control">
+     </div>
+    <button type="submit" class="btn btn-dark reg_btn ">Submit</button>
+</form>
+</div>
+
+{% endblock %}

@@ -1,0 +1,29 @@
+{% extends "investment/layout.html" %}
+
+{% block title %}Home{% endblock %}
+
+
+{% block body %}
+<div>
+    <a href="{% url 'stock' %}" class="home-link">
+    <img src="/static/inve.jpg" class="home-img">
+    <span class="home-text">Explore Our Investment Trackers</span>
+    </a>
+</div>
+
+<div>
+    <a href="{% url 'Budget' %}" class="home-link">
+    <img src="/static/bud.jpg" class="home-img">
+    <span class="home-text">Effortless Budget Management</span>
+    </a>
+</div>
+
+<div>
+    <a href="{% url 'currency' %}" class="home-link">
+    <img src="/static/curr.jpg" class="home-img">
+    <span class="home-text">Smart Currency Conversion</span>
+    </a>
+</div>
+
+
+{% endblock %}

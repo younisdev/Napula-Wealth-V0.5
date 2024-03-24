@@ -1,0 +1,21 @@
+{% extends "investment/layout.html" %}
+
+{% block title %}performance:{{ stock.symbol }}{% endblock %}
+
+
+{% block body %}
+
+<h4 style="display: flex;"><span>{{ stock.company }}</span>(<span id="symbol">{{ stock.symbol }}</span>):</h4>
+<div id="perf"></div>
+<div style="margin-top: 20px;">
+<h5>Tracking list</h5>
+{% for tracked_share in track_performance %}
+<hr>
+<p>Amount Bought:{{ tracked_share.ammount }}</p>
+<p>Bought price:{{ tracked_share.price }}</p>
+<p>at:{{ tracked_share.tracked_at }}</p>
+{% endfor %}
+</div>
+<script src="/static/investment/performance_charts.js"></script>
+
+{% endblock %}

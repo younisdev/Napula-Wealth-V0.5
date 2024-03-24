@@ -1,0 +1,26 @@
+{% extends "investment/layout.html" %}
+
+
+{% block title %}Login{% endblock %}
+
+
+
+{% block body %}
+
+
+<div class="reg_div">
+<form method="post" action="{% url 'login' %}">
+    <h3 class="hint">login To Your Account!</h3>
+     {% csrf_token %}
+     <div class="form-group form" >
+     <input type="text" placeholder="Username" name="username" class="form-control">
+     </div>
+     <div class="form-group form" >
+     <input type="password" placeholder="Password" name="password" class="form-control">
+     </div>
+    <button type="submit" class="btn btn-dark reg_btn" >Submit</button>
+</form>
+</div>
+
+
+{% endblock %}
