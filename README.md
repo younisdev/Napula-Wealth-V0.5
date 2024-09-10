@@ -1,4 +1,4 @@
-# Freelancer Portfolio: Napula Wealth (V0.5)
+#Napula Wealth (V0.5)
 
 Napula Wealth is a multifaceted financial platform designed to cater to the diverse needs of users, ranging from stock tracking enthusiasts to budget-conscious individuals and currency conversion aficionados. As a freelancer, I conceptualized, developed, and implemented Napula Wealth to showcase my skills and expertise in web development, financial data integration, and user experience design.
 
