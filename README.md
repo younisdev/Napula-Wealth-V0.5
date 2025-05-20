@@ -1,4 +1,4 @@
-#Napula Wealth (V0.5)
+## Napula Wealth (V0.5)
 
 Napula Wealth is a multifaceted financial platform designed to cater to the diverse needs of users, ranging from stock tracking enthusiasts to budget-conscious individuals and currency conversion aficionados.
 ## Key Features and Benefits:
