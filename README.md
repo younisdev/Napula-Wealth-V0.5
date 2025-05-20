@@ -38,9 +38,3 @@ Napula Wealth is a multifaceted financial platform designed to cater to the dive
 2. Navigate to the project directory.
 3. Install all required dependencies listed in requirements.txt.
 4. Run the Django development server using the command: `python manage.py runserver`.
-
-## About the Developer:
-Napula Wealth was developed by Younis Ayoub, a skilled freelancer with expertise in web development, financial data integration, and AI. With a passion for innovation and a commitment to delivering high-quality solutions, Younis strives to exceed client expectations and drive impactful results through his work.
-
-## Conclusion:
-Napula Wealth serves as a testament to my proficiency as a freelancer, showcasing my ability to conceptualize, develop, and deploy complex web applications tailored to meet the diverse needs of users. Whether you're an investor, budgeter, or currency enthusiast, Napula Wealth offers the tools and features you need to achieve financial success.
