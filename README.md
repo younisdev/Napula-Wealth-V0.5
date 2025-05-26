@@ -17,11 +17,6 @@ Napula Wealth is a multifaceted financial platform designed to cater to the dive
   
 - **Secure and Scalable Architecture:** The platform prioritizes security, scalability, and maintainability, ensuring a robust and reliable user experience while adhering to modern web development standards.
 
-### Learning and Growth Opportunities:
-- **AI Integration:** Explore the realm of artificial intelligence with a tiny machine learning model implemented using PyTorch, providing valuable insights into AI development and the challenges of data processing and model training.
-  
-- **Professional Development:** Developing Napula Wealth has been a significant learning opportunity, fostering the enhancement of problem-solving skills, algorithmic thinking, and proficiency in Django, React, and other cutting-edge technologies.
-
 ## File Description:
 
 - **models.py:** Defines Django database models, encompassing 11 tables for user authentication, data tracking, caching, and more.
